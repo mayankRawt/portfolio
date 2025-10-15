@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/AakashProfile_2.svg";
+import profilePic from "../assets/Mayank2.jpeg";
 import { motion } from "motion/react";
 
 const container = (delay) => ({
@@ -23,7 +23,7 @@ const Hero = () => {
 							animate="visible"
 							className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
 						>
-							Aakash Sagar
+							Mayank Rawat
 						</motion.h1>
 						<motion.span
 							variants={container(0.4)}
@@ -31,7 +31,7 @@ const Hero = () => {
 							animate="visible"
 							className="bg-gradient-to-r from-pink-300 via-slate-500  to-purple-500  bg-clip-text text-4xl tracking-tight text-transparent"
 						>
-							Full Stack Developer
+							Content Creator
 						</motion.span>
 						<motion.p
 							variants={container(0.6)}

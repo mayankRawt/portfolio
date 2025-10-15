@@ -1,10 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Education from "./components/Education";
-import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
 import { getRandomSong } from "./constants/utility";
@@ -42,10 +39,10 @@ function App() {
 				<Navbar />
 				<Hero />
 				<About />
-				<Education />
+				
 				<Experience />
-				<Technologies />
-				<Projects />
+				
+			
 				<Contact />
 			</div>
 		</div>
