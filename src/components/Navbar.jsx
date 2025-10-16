@@ -1,4 +1,4 @@
-import logo from "../assets/AakashSagarLogo.svg";
+import logo from "../assets/MR.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
